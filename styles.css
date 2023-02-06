@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap");
+
 body {
 	background: black;
 }
@@ -20,6 +22,8 @@ body {
 .postcard-header h1 {
 	width: 90%;
 	margin: 10px;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 40px;
 }
 
 .postcard-body {
@@ -32,17 +36,19 @@ body {
 
 .body-left,
 .body-right {
-	padding: 10px;
+	padding: 8px;
 }
 
 input {
 	border: none;
 	border-bottom: 1px grey solid;
+	font-family: "Montserrat", sans-serif;
 }
 
 p {
-	font-size: 16px;
+	font-size: 14px;
 	text-align: justify;
+	font-family: "Montserrat", sans-serif;
 }
 
 .postcard-footer {
@@ -50,8 +56,7 @@ p {
 }
 button {
 	background-color: lightgrey;
-	padding: 10px;
-}
-.myFont {
-	font-family: "Open Sans";
+	padding: 8px;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 18px;
 }
