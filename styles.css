@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap");
+/*to remove after everything is working properly, it provides a border for the dividers=boxes
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
 
 body {
 	background: black;
@@ -17,6 +22,7 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50 px;
+	margin: 10px;
 }
 
 .postcard-header h1 {
